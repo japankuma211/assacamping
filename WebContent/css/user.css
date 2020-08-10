@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+6. user
+
+
+******************************/
+
+/***********
+6. user
+***********/
+
+.section-user {
+	overflow: hidden;
+	min-height: calc(100vh - 397px - 369px);
+	background-color: #f5f6f7;
+}
+
+.loginForm, .userForm, .modUserform, .findIdForm, .findPwForm, .userPwCheckForm, .changePwForm, .withdrawalForm  {
+	width: 100%;
+	max-width: 460px;
+	margin: auto;
+}
+
+.changeform, .leaveform, .agreeForm {
+	width: 100%;
+	max-width: 510px;
+	margin: auto;
+}
+
+.userForm .form-group button {
+	font-size: inherit;
+}
